@@ -1,0 +1,133 @@
+<nav class="nav__header">
+
+                <div class="logo__header">
+                    <img class="img__header" width="150px" src="./multimedia/LogoPagina.jpg" alt="LogoPagina">
+                </div>
+
+                <ul class="menu__header">
+                    <li class="item__nav"><a href="#inicio">Inicio</a></li>
+                    <li class="item__nav"><a href="#nosotros">Nosotros</a></li>
+                    <li class="item__nav"><a href="#registro">Registrarse</a></li>
+                    <li class="item__nav"><a class="serv" href="#">Servicios</a>
+                        <ul class="submenu__header">
+                            <li class="subItem__nav"><a href="./pages/cursos.html">Cursos</a></li>
+                            <li class="subItem__nav"><a href="./pages/productos.html">Productos</a></li>
+                            <li class="subItem__nav"><a href="./pages/tecnologias.html">Tecnologías</a> </li>
+                            <li class="subItem__nav"><a href="./pages/servicioTecnico.html">Servicio Técnico</a></li>
+                        </ul>
+                </ul>
+
+
+
+.nav__header{
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.img__header{
+  width: 200px;
+  margin: 0 0 5px 0 ;
+  padding: 1%;
+  border-radius: 10px;
+  
+}
+
+.menu__header{
+  width: 60%;
+  margin: 10% ;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.submenu__header{
+  list-style-type: none;
+  display: none;
+  align-items: center;
+  padding:20px;
+  margin: 30px 20px 30px 20px;
+  position: absolute;
+}
+
+.menu__header li{
+  margin: 20px;
+  text-align: center;
+  position: relative;
+
+}
+
+.subItem__nav{
+  padding:20px;
+  font-display: block;
+  font-size: 1.2rem;
+  padding: auto;
+
+}
+.menu__header a{
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+}
+
+.menu__header li a:hover{
+  text-decoration: underline 3px;
+}
+
+.menu__header li:hover >ul{
+  display:block;
+  margin: auto;
+  color: white;
+  background-color: #0e0a35cc;
+  z-index: 1;
+
+}
+
+
+<section id="nosotros">
+
+        <h2 class="titulonos">⭕ NOSOTROS ⭕</h2>
+        <P class="historia">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam voluptates modi ab saepe exercitationem labore illum velit corporis officiis aperiam. Quasi fuga deleniti atque quidem voluptatem consequatur nisi repellendus tempora? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores quo rem corporis. Ducimus alias aspernatur quisquam culpa totam? Non accusantium, mollitia quibusdam rerum dicta magnam excepturi libero a sapiente sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam soluta distinctio earum alias adipisci architecto nobis eius recusandae voluptas ducimus laudantium iusto tempora odio incidunt voluptates, aperiam reiciendis iste quasi.</P>
+
+        <div class="pie">
+            <img id="ImgNos" src="./amultimedia/ImagenNos1.jpg" alt="ImagenComplementaria">
+
+            <button id="boton" class="redondo">     
+                <a href="#inicio"> 
+                <strong>LEER MAS</strong></a>
+            </button>
+            <button id="boton" class="redondo2">
+                <a href="#Redes"> 
+                <strong>CONTACTANOS</strong></a>
+            </button>
+            <img id="GifNos" src="./amultimedia/GIFnos.gif" alt="GifComplementario">
+            
+        </div>
+
+    <hr class="divisorindex3"> 
+
+
+    <section id="registro">
+        <h4>❗❕ Inicia sesion para continuar ❕❗</h4>
+        <section class="formulario">
+                <h5>Inicio de sesion</h5>
+                <form method="post">
+                    <div class="username">
+                        <input type="text" required placeholder="Username">
+                    </div>
+                
+                    <div class="username">
+                        <input type="password" required  placeholder="Contraseña" >
+                    </div>
+                    <div class="olvidocontra">Olvidaste tu contraseña?</div>
+                    <input type="submit" value="Iniciar">
+                    <div class="registrarse"> Quiero hacer el <a href="./pages/formulario.html">registro</a></div>
+
+                </form>
+        </section>
+    </section>

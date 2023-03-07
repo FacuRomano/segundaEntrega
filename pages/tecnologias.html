@@ -1,65 +1,138 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Tecnologias</title>
-</head>
-<body>
-    <header id="inicio">
-        <div class="imgflex"><img class="img" src="../amultimedia/LogoPagina.jpg" alt="Logo LogoPagina"></div>
-        <div class="header">
-            
-            <h1>Online Technological Center</h1>
 
-            <nav class="menu">
-                <ul>
-                    <li class="item"><a href="../index.html">Inicio</a></li>
-                    <li class="item"><a href="../index.html#nosotros">Nosotros</a></li>
-                    <li class="item"><a href="../index.html#registro">Registrarse</a></li>
-                    <li class="itemS"><a class="serv" href="#">Servicios</a>
-                    <ul class="submenu">
-                        <li class="subItem"><a href="../pages/cursos.html">Cursos</a></li>
-                        <li class="subItem"><a href="../pages/productos.html">Productos</a></li>
-                        <li class="subItem"><a href="../pages/tecnologias.html">Tecnologias</a> </li>
-                        <li class="subItem"><a href="../pages/servicioTecnico.html">Servicio Tecnico</a></li>
-                    </ul></li>
-                </ul>
-            </nav>
-        </div>
+    <!--link a estilo boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--link a estilo propio-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="../multimedia/multimedia/tienda-online.png">
+    <title>Online tech Center</title>
+</head>
+<body class="body__cursos">
+    <header class="header">
+      <div class="div__header">
+        <ul class="titulo__header">
+          <li class="logo__header"><img class="img__header" src="../multimedia/LogoPagina.jpg" alt="LogoPagina"></li>
+          <li class="h1"><h1>Online Technological Center </h1></li>
+        </ul>
+            
+        <nav class="navbar navbar-expand-lg menu__header">
+          <div class="container-fluid" >
+            <a class="navbar-brand color" href="#">Menu</a>
+            <button class="navbar-toggler color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link color" aria-current="page" href="../index.html#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link color" href="../index.html#nosotros">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link color" href="../index.html#registro">Registro</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../pages/cursos.html">cursos</a></li>
+                    <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                    <li><a class="dropdown-item" href="../pages/tecnologias.html">Tecnologías</a></li>
+                    <li><a class="dropdown-item" href="../pages/servicioTecnico.html">Servicio Técnico</a></li>
+                  </ul>
+                </li>
+              </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+
     </header>
 
+      <div class="container__cursos my-3">
+          <div class="row animate__animated animate__rubberBand">
+              <h4 class="display-3">NUESTRAS TECNOLOGIAS!</h4>
+              <p class="texto">
+                La empresa ofrece un conjunto amplio y diversificado de soluciones tecnológicas. Desde la infraestructura de base de datos a los servicios en línea, pasando por la recopilación inteligente de datos y concluyendo con el diseño personalizado e integrable para cada única necesidad. Esto proporciona al cliente una experiencia sin fin capaz de satisfacer todas sus exigencias tecnológicas. Los avances constantes garantizan resultados cercanos a las nuevas demandas del usuario moderno, así como novedades informáticas que mejoran continuamente el rendimiento seguido por comprobaciones exhaustivas tanto internas como
+              </p>
+              
+          </div>
 
-    <footer>
 
-        <section class="informacion">
-            <hr class="divisorindex2">
 
-            <ul class="Contacto">
-                <p> Contacto </p>
-                <li> <a href="https://api.whatsapp.com/send?phone=541123982667&amp;text=%C2%A1Hola%21+Estoy+en+la+tienda+OnlyGames+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n." target="_blank" rel="noopener noreferer nofollow"> <img src="../amultimedia/telefono-inteligente.png" width="50px" target="_blank" alt="logo telefono-inteligente"></a>  </li>
-
-                <li> <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"> <img src="../amultimedia/gmail.png" width="50px"  alt="LogoGmail"></a> </li>
-            </ul>
-            
-            <ul class="Redes">
-                <p>Redes Sociales</p>
-                <li> <a href="https://www.instagram.com/" target="_blank"> <img src="../amultimedia/instagram.png"  width="50px"  alt="Logo instagram"></a>  </li>
-                <li> <a href="https://twitter.com/?lang=es" target="_blank"> <img src="../amultimedia/gorjeo.png" width="50px"  alt="Logo Twitter"></a> </li>
-                <li> <a href="https://www.facebook.com/ventasdecoglass/" target="_blank"> <img src="../amultimedia/facebook.png" width="50px" alt="Logo Facebook"></a> </li>
-            </ul>
-
-            <ul class="Titular">
-                <li>
-                    <p>Creado por Facundo Romano</p> 
-                    <em>Estudiante de FullStack en CoderHouse</em>
-                    <a href="#inicio"> <img src="./amultimedia/LogoPagina.jpg" width="90px" target="_blank" alt=""> </a>
-                </li>
-            </ul>
+          <section id="registro">
+            <hr class="divisorindex">
+          
+            <h4>Inicia sesion para continuar</h4>
+            <section class="formulario">
+                    <h5>Inicio de sesion</h5>
+                    <form method="post">
+                        <div class="username">
+                            <input type="text" required placeholder="Username">
+                        </div>
+                    
+                        <div class="username">
+                            <input type="password" required  placeholder="Contraseña" >
+                        </div>
+                        <div class="olvidocontra">Olvidaste tu contraseña?</div>
+                        <input type="submit" value="Iniciar">
+                        <div class="registrarse"> Quiero hacer el <a href="../pages/formulario.html">registro</a></div>
+    
+                    </form>
+            </section>
         </section>
-    </footer>
 
-</body>
+        <footer class="footer">
+          <ul class="lista__footer">
+    
+            <li class="contacto__footer text-center">
+              <p class="tituloLista__footer"> Contacto </p> 
+    
+              <a class="itemRedes__footer" href="https://api.whatsapp.com/send?phone=541123982667&amp;text=%C2%A1Hola%21+Estoy+en+la+tienda+OnlyGames+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n." target="_blank" rel="noopener noreferer nofollow" target="_blank"> <img src="../multimedia/telefono-inteligente.png" width="50px" alt="logo telefono-inteligente"></a>
+              <a class="itemRedes__footer" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"> <img src="../multimedia/gmail.png" width="50px"  alt="LogoGmail"></a>
+            </li>
+    
+            <li class="titular__footer text-center">
+              <p class="creador__footer" >Creado por Facundo Romano</p> 
+              <em class="creador__footer" >Estudiante de FullStack en CoderHouse</em>
+    
+              <a class="itemCreador__footer" href="#inicio" > <img src="../multimedia/LogoPagina.jpg"  alt="Logo Pagina"> </a> 
+            </li>
+    
+            <li class="redes__footer text-center">
+              <p class="tituloLista__footer">Redes Sociales</p>
+    
+              <a class="itemRedes__footer" href="https://www.instagram.com/" target="_blank"> <img src="../multimedia/instagram.png" width="50px" alt="Logo instagram"></a>
+              <a class="itemRedes__footer" href="https://twitter.com/?lang=es" target="_blank"> <img src="../multimedia/gorjeo.png" width="50px" alt="Logo Twitter"></a>
+              <a class="itemRedes__footer" href="https://www.facebook.com/ventasdecoglass/" target="_blank"> <img src="../multimedia/facebook.png" width="50px" alt="Logo Facebook"></a>
+    
+            </li>
+    
+          </ul>
+        </footer>
+      </div>
+
+      <!-- Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+      <!-- Custom JS -->
+      <script src="js/main.js"></script>
+  </body>
+</html>
 </html>

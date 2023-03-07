@@ -1,97 +1,425 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Productos</title>
-</head>
-<body>
-    <header id="inicio">
-        <div class="imgflex"><img class="img" src="../amultimedia/LogoPagina.jpg" alt="Logo LogoPagina"></div>
-        <div class="header">
-            
-            <h1>Online Technological Center</h1>
-
-            <nav class="menu">
-                <ul>
-                    <li class="item"><a href="../index.html">Inicio</a></li>
-                    <li class="item"><a href="../index.html#nosotros">Nosotros</a></li>
-                    <li class="item"><a href="../index.html#registro">Registrarse</a></li>
-                    <li class="itemS"><a class="serv" href="#">Servicios</a>
-                    <ul class="submenu">
-                        <li class="subItem"><a href="../pages/cursos.html">Cursos</a></li>
-                        <li class="subItem"><a href="../pages/productos.html">Productos</a></li>
-                        <li class="subItem"><a href="../pages/tecnologias.html">Tecnologias</a> </li>
-                        <li class="subItem"><a href="../pages/servicioTecnico.html">Servicio Tecnico</a></li>
-                    </ul></li>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Index</title>
+            <!--link a estilo boostrap-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+        <!--link a estilo propio-->
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body class="body__cursos">
+      <header class="header">
+        <div class="div__header">
+          <ul class="titulo__header">
+            <li class="logo__header"><img class="img__header" src="../multimedia/LogoPagina.jpg" alt="LogoPagina"></li>
+            <li class="h1"><h1>Online Technological Center </h1></li>
+          </ul>
+              
+          <nav class="navbar navbar-expand-lg menu__header">
+            <div class="container-fluid" >
+              <a class="navbar-brand color" href="#">Menu</a>
+              <button class="navbar-toggler color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link color" aria-current="page" href="../index.html#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color" href="../index.html#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link color" href="../index.html#registro">Registro</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="../pages/cursos.html">cursos</a></li>
+                      <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                      <li><a class="dropdown-item" href="../pages/tecnologias.html">Tecnologías</a></li>
+                      <li><a class="dropdown-item" href="../pages/servicioTecnico.html">Servicio Técnico</a></li>
+                    </ul>
+                  </li>
                 </ul>
-            </nav>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+              </div>
+            </div>
+          </nav>
         </div>
-    </header>
+  
+      </header>
 
-    <main>
-        <section class="Inicio">
-            <h2 class="tituloinicio"> 💳 ❗❕ NUESTROS PRODUCTOS ❕❗ 💸</h2>
-        </section>
+        <div class="container__cursos my-3">
+            <div class="row animate__animated animate__rubberBand">
+                <h4 class="display-3">NUESTROS PRODUCTOS!</h4>
+                <p class="texto">
+                    Los insumos de computación son materiales y herramientas básicas que se utilizan para operar, monitorear o controlar una computadora. Esto incluye equipo como tarjetas madre, discos duros, placas gráficas, procesadores, RAM (memoria), entradas externas como teclados y ratones. También pueden incluir software necesario para la ejecución de instrucciones específicas en la computadora. Los insumos permiten a los usuarios ejecutar tareas tales como navegar por internet, plataforma de juego adicional al hardware/software previstas cuando compraron el dispositivo original.
+                </p>
+                
+            </div>
 
-        <section class="produccion">
-            <div class="Micro"><h2>Microprocesador AMD Ryzen7 1700x coolerRGB</h2>
-            </div>
-            <div class="SSD"><h2>Disco rigido SSD 1TB Kingstone</h2>
-            </div>
-            <div class="Fuente"><h2>Fuente certificada 80plus Bronce 750W</h2>
-            </div>
-            <div class=" Gabinete"><h2>gabinete ATX Mid Tower</h2>
-            </div>
-            <div class=" Mother"><h2>MotherBoard ASUS-PRIME a320</h2>
-            </div>
-            <div class=" Ram"><h2>Memoria Ram Corsair 8gb 3200mhz</h2>
-            </div>
-            <div class=" GPU"><h2>Placa de Video Radeon RX570 8gb</h2>
-            </div>
-        </section>
-    </main>
+            <div class="row text-center animate__animated animate__bounceInLeft">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/ryzen2.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Microprocesador AMD Ryzen7 1700x coolerRGB</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/ryzen1.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/ryzen.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn margen1 color__link">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions1" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/disco.jpg" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Disco rigido SSD 1TB Kingstone</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/disco1.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card img__card">
+                                <img src="../multimedia/disco2.jpg" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn margen1 color__link">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions2" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/fuente.jpg" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Fuente certificada 80plus Bronce 750W</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/fuente1.jpg" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/fuente3.png_515Wx515H" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn margen1 color__link">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
 
-    <footer>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions3" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/gabinete1.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>gabinete ATX Mid Tower</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/gabinete2.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/gabinete3.jpg" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn color__link margen1">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
 
-        <section class="informacion">
-            <hr class="divisorindex2">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions4" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/mother2.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>MotherBoard ASUS-PRIME a320</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/mother.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/mother3.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions4" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn color__link margen1">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
 
-            <ul class="Contacto">
-                <p> Contacto </p>
-                <li> <a href="https://api.whatsapp.com/send?phone=541123982667&amp;text=%C2%A1Hola%21+Estoy+en+la+tienda+OnlyGames+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n." target="_blank" rel="noopener noreferer nofollow"> <img src="../amultimedia/telefono-inteligente.png" width="50px" target="_blank" alt="logo telefono-inteligente"></a>  </li>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions5" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/ram1.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Memoria Ram Corsair 8gb 3200mhz</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/ram2.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/ram3.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions5" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn color__link margen1">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
 
-                <li> <a href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"> <img src="../amultimedia/gmail.png" width="50px"  alt="LogoGmail"></a> </li>
-            </ul>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                    <div class="card shadow fondo">
+                        <div class="card-body">
+                          <div id="carouselExampleCaptions6" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active img__card">
+                                <img src="../multimedia/gpu.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5>Placa de Video Radeon RX570 8gb</h5>
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/gpu2.png" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                              <div class="carousel-item img__card">
+                                <img src="../multimedia/gpu3.webp" class="d-block w-100" alt="imagen__carrousel">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions6" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                            <a href="#" class="btn color__link margen1">Ver Producto</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+          </div>
+
+          
+            </div>
+
+            <section id="registro">
+              <hr class="divisorindex">
             
-            <ul class="Redes">
-                <p>Redes Sociales</p>
-                <li> <a href="https://www.instagram.com/" target="_blank"> <img src="../amultimedia/instagram.png"  width="50px"  alt="Logo instagram"></a>  </li>
-                <li> <a href="https://twitter.com/?lang=es" target="_blank"> <img src="../amultimedia/gorjeo.png" width="50px"  alt="Logo Twitter"></a> </li>
-                <li> <a href="https://www.facebook.com/ventasdecoglass/" target="_blank"> <img src="../amultimedia/facebook.png" width="50px" alt="Logo Facebook"></a> </li>
+              <h4>Inicia sesion para continuar</h4>
+              <section class="formulario">
+                      <h5>Inicio de sesion</h5>
+                      <form method="post">
+                          <div class="username">
+                              <input type="text" required placeholder="Username">
+                          </div>
+                      
+                          <div class="username">
+                              <input type="password" required  placeholder="Contraseña" >
+                          </div>
+                          <div class="olvidocontra">Olvidaste tu contraseña?</div>
+                          <input type="submit" value="Iniciar">
+                          <div class="registrarse"> Quiero hacer el <a href="../pages/formulario.html">registro</a></div>
+      
+                      </form>
+              </section>
+          </section>
+
+          <footer class="footer">
+            <ul class="lista__footer">
+      
+              <li class="contacto__footer text-center">
+                <p class="tituloLista__footer"> Contacto </p> 
+      
+                <a class="itemRedes__footer" href="https://api.whatsapp.com/send?phone=541123982667&amp;text=%C2%A1Hola%21+Estoy+en+la+tienda+OnlyGames+y+quiero+pedir+m%C3%A1s+informaci%C3%B3n." target="_blank" rel="noopener noreferer nofollow" target="_blank"> <img src="../multimedia/telefono-inteligente.png" width="50px" alt="logo telefono-inteligente"></a>
+                <a class="itemRedes__footer" href="https://www.google.com/intl/es-419/gmail/about/" target="_blank"> <img src="../multimedia/gmail.png" width="50px"  alt="LogoGmail"></a>
+              </li>
+      
+              <li class="titular__footer text-center">
+                <p class="creador__footer" >Creado por Facundo Romano</p> 
+                <em class="creador__footer" >Estudiante de FullStack en CoderHouse</em>
+      
+                <a class="itemCreador__footer" href="#inicio" > <img src="../multimedia/LogoPagina.jpg"  alt="Logo Pagina"> </a> 
+              </li>
+      
+              <li class="redes__footer text-center">
+                <p class="tituloLista__footer">Redes Sociales</p>
+      
+                <a class="itemRedes__footer" href="https://www.instagram.com/" target="_blank"> <img src="../multimedia/instagram.png" width="50px" alt="Logo instagram"></a>
+                <a class="itemRedes__footer" href="https://twitter.com/?lang=es" target="_blank"> <img src="../multimedia/gorjeo.png" width="50px" alt="Logo Twitter"></a>
+                <a class="itemRedes__footer" href="https://www.facebook.com/ventasdecoglass/" target="_blank"> <img src="../multimedia/facebook.png" width="50px" alt="Logo Facebook"></a>
+      
+              </li>
+      
             </ul>
+          </footer>
+        </div>
 
-            <ul class="Titular">
-                <li>
-                    <p>Creado por Facundo Romano</p> 
-                    <em>Estudiante de FullStack en CoderHouse</em>
-                    <a href="#inicio"> <img src="./amultimedia/LogoPagina.jpg" width="90px" target="_blank" alt=""> </a>
-                </li>
-            </ul>
-        </section>
-    </footer>
-
-
-
-
-
-
-
-
-
-
-
-</body>
+        <!-- Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- Custom JS -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
 </html>

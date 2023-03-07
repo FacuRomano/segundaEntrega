@@ -17,7 +17,34 @@
                         </ul>
                 </ul>
 
+<Main>
 
+            <section class="Inicio">
+                <h2 class="tituloinicio"> 🛠 ❗❕ SERVICIO TECNICO ❕❗ 🛠</h2>
+            </section>
+
+            <nav>
+
+                <ul class="STList">
+                    <li>        
+                        <h2>⬇ Problemas Frecuentes ⬇</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pNVlLM8Ysaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                    </li>
+                    
+                    <li>
+        
+                        <h2>⬇Reparar Windows Desde CMD⬇</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gxyrHMSWmdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <br>
+                        <br>
+                    </li>
+                </ul>
+
+            </nav>
+            
+        </Main>
 
 .nav__header{
   width: 90%;
